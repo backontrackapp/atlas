@@ -1,0 +1,35 @@
+{
+  "name": "@backontrack/atlas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm sync:workflow && vite",
+    "build": "pnpm sync:workflow && tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "sync:workflow": "node scripts/generate-workflow-graph.mjs",
+    "init:env": "node scripts/init-env.mjs",
+    "screenshots": "node scripts/update-workflow-screenshots.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.9.3",
+    "elkjs": "^0.9.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.4.1",
+    "playwright": "^1.54.2",
+    "sass": "^1.83.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.6.3",
+    "vite": "^6.0.5"
+  },
+  "packageManager": "pnpm@11.21.0+sha512.521705bce689924eac72f5a3587122f362689ef6571e55ba80076fd637c11132ecffada26fad4ea79c485bfddbfd3d5a2a5b05805a77e893de71ec8a6cca3bb1"
+}

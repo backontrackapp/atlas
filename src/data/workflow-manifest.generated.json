@@ -1,0 +1,2786 @@
+{
+  "generatedAt": "2026-08-19T12:24:22.035Z",
+  "appRoot": "../app",
+  "capture": {
+    "width": 1366,
+    "height": 768
+  },
+  "routes": [
+    {
+      "path": "/",
+      "name": "landing",
+      "title": "BackOnTrack — Make life programmable.",
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/LandingView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/auth",
+      "name": "auth",
+      "title": "auth",
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/AuthView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/forgot-password",
+      "name": "forgot-password",
+      "title": "Forgot password",
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/AuthView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/reset-password",
+      "name": "reset-password",
+      "title": "Reset password",
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/AuthView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/verify-email",
+      "name": "verify-email",
+      "title": "Confirm email",
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/AuthView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/",
+      "name": "/",
+      "title": "/",
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/layouts/AppShell.vue",
+      "isLayout": true,
+      "isRedirect": false
+    },
+    {
+      "path": "/tasks",
+      "name": "tasks",
+      "title": "Tasks",
+      "pageOrder": 0,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TodayView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/today",
+      "name": "/today",
+      "redirect": "/tasks",
+      "title": "/today",
+      "isLayout": false,
+      "isRedirect": true
+    },
+    {
+      "path": "/intervals",
+      "name": "intervals",
+      "title": "Intervals",
+      "pageOrder": 1,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/IntervalsView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards",
+      "name": "flashcards",
+      "title": "Flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardsView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/cards",
+      "name": "flashcard-cards",
+      "title": "Manage cards",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardCardsView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/tags",
+      "name": "flashcard-tags",
+      "title": "Manage tags",
+      "backTo": "/flashcards/cards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardTagsView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/cards/import",
+      "name": "flashcard-import",
+      "title": "Import cards",
+      "backTo": "/flashcards/cards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardImportView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/cards/new",
+      "name": "flashcard-new",
+      "title": "New card",
+      "backTo": "/flashcards/cards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/cards/:id/edit",
+      "name": "flashcard-edit",
+      "title": "Edit card",
+      "backTo": "/flashcards/cards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review-sets/new",
+      "name": "flashcard-review-set-new",
+      "title": "New Review set",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardReviewSetEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review-sets/:id/edit",
+      "name": "flashcard-review-set-edit",
+      "title": "Edit Review set",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardReviewSetEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review-sets/:id/share",
+      "name": "flashcard-review-set-share",
+      "title": "Share Review set",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardReviewSetShareView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review-sets/:id/cards",
+      "name": "flashcard-review-set-cards",
+      "title": "Review set cards",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardReviewSetCardsView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review-sets/:reviewSetId/cards/new",
+      "name": "flashcard-review-set-card-new",
+      "title": "New shared card",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "name": "flashcard-review-set-card-edit",
+      "title": "Edit shared card",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review/set/:reviewSetId",
+      "name": "flashcard-review-set-runner",
+      "title": "Review",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardReviewRunnerView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/flashcards/review/:sessionId",
+      "name": "flashcard-review-runner",
+      "title": "Review",
+      "backTo": "/flashcards",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/FlashcardReviewRunnerView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tracking",
+      "name": "tracking",
+      "title": "Tracking",
+      "pageOrder": 3,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TrackingView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/journal",
+      "name": "journal",
+      "title": "Journal",
+      "pageOrder": 4,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/JournalView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/journal/new",
+      "name": "journal-new",
+      "title": "New reflection",
+      "backTo": "/journal",
+      "pageOrder": 4,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/JournalEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/journal/:id/edit",
+      "name": "journal-edit",
+      "title": "Edit reflection",
+      "backTo": "/journal",
+      "pageOrder": 4,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/JournalEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tracking/new",
+      "name": "tracking-new",
+      "title": "New tracker",
+      "backTo": "/tracking",
+      "pageOrder": 3,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TrackingEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tracking/:id/edit",
+      "name": "tracking-edit",
+      "title": "Edit tracker",
+      "backTo": "/tracking",
+      "pageOrder": 3,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TrackingEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tracking/insights/compare",
+      "name": "tracking-insights",
+      "title": "Tracking insights",
+      "backTo": "/tracking",
+      "pageOrder": 3,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TrackingInsightsView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tasks/manage",
+      "name": "/tasks/manage",
+      "redirect": "/tasks",
+      "title": "/tasks/manage",
+      "isLayout": false,
+      "isRedirect": true
+    },
+    {
+      "path": "/account",
+      "name": "account",
+      "title": "Account",
+      "backTo": "/tasks",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/AccountView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/settings",
+      "name": "settings",
+      "title": "Settings",
+      "backTo": "/tasks",
+      "pageOrder": 2,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/SettingsView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/intervals/quick",
+      "name": "interval-quick",
+      "title": "Quick interval",
+      "backTo": "/intervals",
+      "pageOrder": 1,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/QuickIntervalView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/intervals/new",
+      "name": "interval-new",
+      "title": "New interval",
+      "backTo": "/intervals",
+      "pageOrder": 1,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/IntervalEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/intervals/:id/edit",
+      "name": "interval-edit",
+      "title": "Edit interval",
+      "backTo": "/intervals",
+      "pageOrder": 1,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/IntervalEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tasks/new",
+      "name": "task-new",
+      "title": "New task",
+      "backTo": "/tasks",
+      "pageOrder": 0,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TaskEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tasks/:id/timer",
+      "name": "task-timer",
+      "title": "Log time",
+      "backTo": "/tasks",
+      "pageOrder": 0,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TaskTimerView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/tasks/:id",
+      "name": "task-edit",
+      "title": "Edit task",
+      "backTo": "/tasks",
+      "pageOrder": 0,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/TaskEditorView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/intervals/run/template/:templateId",
+      "name": "interval-template-runner",
+      "title": "Interval",
+      "backTo": "/intervals",
+      "pageOrder": 1,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/IntervalRunnerView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/intervals/run/:sessionId",
+      "name": "interval-runner",
+      "title": "Interval",
+      "backTo": "/intervals",
+      "pageOrder": 1,
+      "componentPath": "/home/dcoulombe/dev/backontrack/app/src/views/IntervalRunnerView.vue",
+      "isLayout": false,
+      "isRedirect": false
+    },
+    {
+      "path": "/plan",
+      "name": "/plan",
+      "redirect": "/tasks",
+      "title": "/plan",
+      "isLayout": false,
+      "isRedirect": true
+    },
+    {
+      "path": "/plan/intervals/new",
+      "name": "/plan/intervals/new",
+      "redirect": "/intervals/new",
+      "title": "/plan/intervals/new",
+      "isLayout": false,
+      "isRedirect": true
+    },
+    {
+      "path": "/plan/intervals/:id",
+      "name": "/plan/intervals/:id",
+      "title": "/plan/intervals/:id",
+      "isLayout": false,
+      "isRedirect": true
+    },
+    {
+      "path": "/:pathMatch(.*)*",
+      "name": "/:pathMatch(.*)*",
+      "redirect": "/",
+      "title": "/:pathMatch(.*)*",
+      "isLayout": false,
+      "isRedirect": true
+    }
+  ],
+  "transitions": [
+    {
+      "from": "/",
+      "to": "/",
+      "kind": "navigation",
+      "label": "to: \"/\""
+    },
+    {
+      "from": "/",
+      "to": "/auth",
+      "kind": "navigation",
+      "label": "to: \"/auth\""
+    },
+    {
+      "from": "/auth",
+      "to": "/auth",
+      "kind": "navigation",
+      "label": "click: returnToSignIn"
+    },
+    {
+      "from": "/auth",
+      "to": "/forgot-password",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'forgot-password' }\""
+    },
+    {
+      "from": "/forgot-password",
+      "to": "/auth",
+      "kind": "navigation",
+      "label": "click: returnToSignIn"
+    },
+    {
+      "from": "/forgot-password",
+      "to": "/forgot-password",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'forgot-password' }\""
+    },
+    {
+      "from": "/reset-password",
+      "to": "/auth",
+      "kind": "navigation",
+      "label": "click: returnToSignIn"
+    },
+    {
+      "from": "/reset-password",
+      "to": "/forgot-password",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'forgot-password' }\""
+    },
+    {
+      "from": "/verify-email",
+      "to": "/auth",
+      "kind": "navigation",
+      "label": "click: returnToSignIn"
+    },
+    {
+      "from": "/verify-email",
+      "to": "/forgot-password",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'forgot-password' }\""
+    },
+    {
+      "from": "/tasks",
+      "to": "/tasks/:id/timer",
+      "kind": "navigation",
+      "label": "log-tracking-time: openTrackingTimeLogger"
+    },
+    {
+      "from": "/tasks",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "run-program-step-requirement: runProgramStepRequirement"
+    },
+    {
+      "from": "/tasks",
+      "to": "/intervals/run/template/:templateId",
+      "kind": "navigation",
+      "label": "run-program-step-requirement: runProgramStepRequirement"
+    },
+    {
+      "from": "/tasks",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "run-program-step-requirement: runProgramStepRequirement"
+    },
+    {
+      "from": "/tasks",
+      "to": "/flashcards/review/set/:reviewSetId",
+      "kind": "navigation",
+      "label": "run-program-step-requirement: runProgramStepRequirement"
+    },
+    {
+      "from": "/tasks",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: runTaskMainAction(action)"
+    },
+    {
+      "from": "/tasks",
+      "to": "/intervals/run/template/:templateId",
+      "kind": "navigation",
+      "label": "click: runTaskMainAction(action)"
+    },
+    {
+      "from": "/tasks",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "click: runTaskMainAction(action)"
+    },
+    {
+      "from": "/tasks",
+      "to": "/flashcards/review/set/:reviewSetId",
+      "kind": "navigation",
+      "label": "click: runTaskMainAction(action)"
+    },
+    {
+      "from": "/tasks",
+      "to": "/tasks/:id/timer",
+      "kind": "navigation",
+      "label": "click: runTaskMainAction(action)"
+    },
+    {
+      "from": "/tasks",
+      "to": "/journal/new",
+      "kind": "navigation",
+      "label": "click: runTaskMainAction(action)"
+    },
+    {
+      "from": "/tasks",
+      "to": "/tasks/:id",
+      "kind": "navigation",
+      "label": "click: runTaskCardAction(action.id)"
+    },
+    {
+      "from": "/tasks",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: resumeActiveInterval"
+    },
+    {
+      "from": "/tasks",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "click: resumeActiveReview"
+    },
+    {
+      "from": "/tasks",
+      "to": "/tasks/new",
+      "kind": "navigation",
+      "label": "to: \"/tasks/new\""
+    },
+    {
+      "from": "/today",
+      "to": "/tasks",
+      "kind": "redirect",
+      "label": "redirect (/tasks)"
+    },
+    {
+      "from": "/intervals",
+      "to": "/intervals/quick",
+      "kind": "navigation",
+      "label": "to: \"/intervals/quick\""
+    },
+    {
+      "from": "/intervals",
+      "to": "/intervals/new",
+      "kind": "navigation",
+      "label": "to: \"/intervals/new\""
+    },
+    {
+      "from": "/intervals",
+      "to": "{",
+      "kind": "navigation",
+      "label": "to: \"{         name: 'interval-runner',         params: { sessionId: store.activeSession.id },         query: { autoplay: '1' },       }\""
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "click: openReviewSet(reviewSet)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review/set/:reviewSetId",
+      "kind": "navigation",
+      "label": "click: openReviewSet(reviewSet)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "keydown: openReviewSet(reviewSet)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review/set/:reviewSetId",
+      "kind": "navigation",
+      "label": "keydown: openReviewSet(reviewSet)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "click: runReviewSetAction(item.action)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review/set/:reviewSetId",
+      "kind": "navigation",
+      "label": "click: runReviewSetAction(item.action)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review-sets/:id/edit",
+      "kind": "navigation",
+      "label": "click: runReviewSetAction(item.action)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review-sets/:id/cards",
+      "kind": "navigation",
+      "label": "click: runReviewSetAction(item.action)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review-sets/:id/share",
+      "kind": "navigation",
+      "label": "click: runReviewSetAction(item.action)"
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/cards/new",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'flashcard-new' }\""
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/cards",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'flashcard-cards' }\""
+    },
+    {
+      "from": "/flashcards",
+      "to": "{",
+      "kind": "navigation",
+      "label": "to: \"{               name: 'flashcard-review-runner',               params: { sessionId: store.activeSession.id },               query: { autoplay: '1' },      "
+    },
+    {
+      "from": "/flashcards",
+      "to": "/flashcards/review-sets/new",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'flashcard-review-set-new' }\""
+    },
+    {
+      "from": "/flashcards/cards",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/cards",
+      "to": "/flashcards/cards/new",
+      "kind": "navigation",
+      "label": "add-card: openNewCard"
+    },
+    {
+      "from": "/flashcards/cards",
+      "to": "/flashcards/cards/:id/edit",
+      "kind": "navigation",
+      "label": "open-card: openCard"
+    },
+    {
+      "from": "/flashcards/cards",
+      "to": "/flashcards/cards/:id/edit",
+      "kind": "navigation",
+      "label": "click: openCard(card)"
+    },
+    {
+      "from": "/flashcards/cards",
+      "to": "/flashcards/tags",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'flashcard-tags' }\""
+    },
+    {
+      "from": "/flashcards/tags",
+      "to": "/flashcards/cards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/tags",
+      "to": "/flashcards/cards/new",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'flashcard-new' }\""
+    },
+    {
+      "from": "/flashcards/cards/import",
+      "to": "/flashcards/cards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/cards/import",
+      "to": "/flashcards/cards",
+      "kind": "navigation",
+      "label": "submit: importCards"
+    },
+    {
+      "from": "/flashcards/cards/new",
+      "to": "/flashcards/cards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/cards/:id/edit",
+      "to": "/flashcards/cards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review-sets/new",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review-sets/new",
+      "to": "/flashcards",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/flashcards/review-sets/new",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/new",
+      "kind": "navigation",
+      "label": "add-card: openNewCard"
+    },
+    {
+      "from": "/flashcards/review-sets/new",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "kind": "navigation",
+      "label": "open-card: openCard"
+    },
+    {
+      "from": "/flashcards/review-sets/new",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "kind": "navigation",
+      "label": "click: openCard(card)"
+    },
+    {
+      "from": "/flashcards/review-sets/new",
+      "to": "/flashcards",
+      "kind": "navigation",
+      "label": "confirm: remove"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/edit",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/edit",
+      "to": "/flashcards",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/edit",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/new",
+      "kind": "navigation",
+      "label": "add-card: openNewCard"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/edit",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "kind": "navigation",
+      "label": "open-card: openCard"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/edit",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "kind": "navigation",
+      "label": "click: openCard(card)"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/edit",
+      "to": "/flashcards",
+      "kind": "navigation",
+      "label": "confirm: remove"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/share",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/cards",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/cards",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/new",
+      "kind": "navigation",
+      "label": "add-card: openNewCard"
+    },
+    {
+      "from": "/flashcards/review-sets/:id/cards",
+      "to": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "kind": "navigation",
+      "label": "open-card: openCard"
+    },
+    {
+      "from": "/flashcards/review-sets/:reviewSetId/cards/new",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review/set/:reviewSetId",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review/set/:reviewSetId",
+      "to": "exitDestination",
+      "kind": "navigation",
+      "label": "click: router.replace(exitDestination)"
+    },
+    {
+      "from": "/flashcards/review/set/:reviewSetId",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "start: startPreviewReview"
+    },
+    {
+      "from": "/flashcards/review/set/:reviewSetId",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "click: isReviewSetPreview ? startPreviewReview() : session.status === 'paused' ? resumeReview() : pauseReview(false)"
+    },
+    {
+      "from": "/flashcards/review/:sessionId",
+      "to": "/flashcards",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/flashcards/review/:sessionId",
+      "to": "exitDestination",
+      "kind": "navigation",
+      "label": "click: router.replace(exitDestination)"
+    },
+    {
+      "from": "/flashcards/review/:sessionId",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "start: startPreviewReview"
+    },
+    {
+      "from": "/flashcards/review/:sessionId",
+      "to": "/flashcards/review/:sessionId",
+      "kind": "navigation",
+      "label": "click: isReviewSetPreview ? startPreviewReview() : session.status === 'paused' ? resumeReview() : pauseReview(false)"
+    },
+    {
+      "from": "/tracking",
+      "to": "/journal/new",
+      "kind": "navigation",
+      "label": "click: writeTrackerReflection"
+    },
+    {
+      "from": "/tracking",
+      "to": "/journal",
+      "kind": "navigation",
+      "label": "click: viewTrackerReflections"
+    },
+    {
+      "from": "/tracking",
+      "to": "/tasks",
+      "kind": "navigation",
+      "label": "saved: handleLogSaved"
+    },
+    {
+      "from": "/tracking",
+      "to": "/tracking/insights/compare",
+      "kind": "navigation",
+      "label": "to: \"/tracking/insights/compare\""
+    },
+    {
+      "from": "/tracking",
+      "to": "/tracking/new",
+      "kind": "navigation",
+      "label": "to: \"{ path: '/tracking/new', query: { role: 'factor' } }\""
+    },
+    {
+      "from": "/tracking",
+      "to": "/tracking/new",
+      "kind": "navigation",
+      "label": "to: \"{ path: '/tracking/new', query: { role: 'outcome' } }\""
+    },
+    {
+      "from": "/tracking",
+      "to": "/tracking/new",
+      "kind": "navigation",
+      "label": "to: \"/tracking/new\""
+    },
+    {
+      "from": "/journal",
+      "to": "/journal",
+      "kind": "navigation",
+      "label": "click:close: clearSourceFilter('task')"
+    },
+    {
+      "from": "/journal",
+      "to": "/journal",
+      "kind": "navigation",
+      "label": "click:close: clearSourceFilter('tracker')"
+    },
+    {
+      "from": "/journal",
+      "to": "/journal/:id/edit",
+      "kind": "navigation",
+      "label": "click: router.push({ name: 'journal-edit', params: { id: entry.id } })"
+    },
+    {
+      "from": "/journal",
+      "to": "/journal/:id/edit",
+      "kind": "navigation",
+      "label": "keydown: router.push({ name: 'journal-edit', params: { id: entry.id } })"
+    },
+    {
+      "from": "/journal",
+      "to": "/journal/new",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'journal-new', query: newEntryQuery() }\""
+    },
+    {
+      "from": "/journal/new",
+      "to": "/journal",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/journal/:id/edit",
+      "to": "/journal",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/tracking/new",
+      "to": "/tracking",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/tracking/new",
+      "to": "/tracking",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/tracking/new",
+      "to": "/tracking",
+      "kind": "navigation",
+      "label": "confirm: remove"
+    },
+    {
+      "from": "/tracking/:id/edit",
+      "to": "/tracking",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/tracking/:id/edit",
+      "to": "/tracking",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/tracking/:id/edit",
+      "to": "/tracking",
+      "kind": "navigation",
+      "label": "confirm: remove"
+    },
+    {
+      "from": "/tracking/insights/compare",
+      "to": "/tracking",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/tracking/insights/compare",
+      "to": "/tracking/new",
+      "kind": "navigation",
+      "label": "to: \"/tracking/new\""
+    },
+    {
+      "from": "/tasks/manage",
+      "to": "/tasks",
+      "kind": "redirect",
+      "label": "redirect (/tasks)"
+    },
+    {
+      "from": "/account",
+      "to": "/tasks",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/settings",
+      "to": "/tasks",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/intervals/quick",
+      "to": "/intervals",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/intervals/new",
+      "to": "/intervals",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/intervals/new",
+      "to": "/intervals",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/intervals/new",
+      "to": "/intervals",
+      "kind": "navigation",
+      "label": "confirm: removeTemplate"
+    },
+    {
+      "from": "/intervals/new",
+      "to": "/flashcards/review-sets/new",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'flashcard-review-set-new' }\""
+    },
+    {
+      "from": "/intervals/:id/edit",
+      "to": "/intervals",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/intervals/:id/edit",
+      "to": "/intervals",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/intervals/:id/edit",
+      "to": "/intervals",
+      "kind": "navigation",
+      "label": "confirm: removeTemplate"
+    },
+    {
+      "from": "/intervals/:id/edit",
+      "to": "/flashcards/review-sets/new",
+      "kind": "navigation",
+      "label": "to: \"{ name: 'flashcard-review-set-new' }\""
+    },
+    {
+      "from": "/tasks/new",
+      "to": "/tasks",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/tasks/new",
+      "to": "/tasks",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/tasks/new",
+      "to": "/tasks",
+      "kind": "navigation",
+      "label": "confirm: removeTask"
+    },
+    {
+      "from": "/tasks/new",
+      "to": "/intervals/new",
+      "kind": "navigation",
+      "label": "to: \"/intervals/new\""
+    },
+    {
+      "from": "/tasks/new",
+      "to": "/flashcards/review-sets/new",
+      "kind": "navigation",
+      "label": "to: \"/flashcards/review-sets/new\""
+    },
+    {
+      "from": "/tasks/new",
+      "to": "/tracking/new",
+      "kind": "navigation",
+      "label": "to: \"/tracking/new\""
+    },
+    {
+      "from": "/tasks/:id/timer",
+      "to": "/tasks",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/tasks/:id/timer",
+      "to": "/tasks",
+      "kind": "navigation",
+      "label": "click: leave"
+    },
+    {
+      "from": "/tasks/:id/timer",
+      "to": "/tasks",
+      "kind": "navigation",
+      "label": "confirm: logTime"
+    },
+    {
+      "from": "/tasks/:id",
+      "to": "/tasks",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/tasks/:id",
+      "to": "/tasks",
+      "kind": "navigation",
+      "label": "submit: save"
+    },
+    {
+      "from": "/tasks/:id",
+      "to": "/tasks",
+      "kind": "navigation",
+      "label": "confirm: removeTask"
+    },
+    {
+      "from": "/tasks/:id",
+      "to": "/intervals/new",
+      "kind": "navigation",
+      "label": "to: \"/intervals/new\""
+    },
+    {
+      "from": "/tasks/:id",
+      "to": "/flashcards/review-sets/new",
+      "kind": "navigation",
+      "label": "to: \"/flashcards/review-sets/new\""
+    },
+    {
+      "from": "/tasks/:id",
+      "to": "/tracking/new",
+      "kind": "navigation",
+      "label": "to: \"/tracking/new\""
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "start: requestStartTemplate"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "returnTo",
+      "kind": "navigation",
+      "label": "cancel: router.replace(returnTo)"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: runAgain()"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: isTemplatePreview ? requestStartTemplate() : confirmCurrent()"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: isTemplatePreview ? requestStartTemplate() : session.status === 'paused' ? resume() : pause()"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: confirmRepetitionStart"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: startTemplate(item.task.id, item.programStep?.id, intervalCompletionId(item))"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: startTemplate()"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: resumeActiveSession"
+    },
+    {
+      "from": "/intervals/run/template/:templateId",
+      "to": "returnTo",
+      "kind": "navigation",
+      "label": "to: \"returnTo\""
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals",
+      "kind": "backTo",
+      "label": "back"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "start: requestStartTemplate"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "returnTo",
+      "kind": "navigation",
+      "label": "cancel: router.replace(returnTo)"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: runAgain()"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: isTemplatePreview ? requestStartTemplate() : confirmCurrent()"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: isTemplatePreview ? requestStartTemplate() : session.status === 'paused' ? resume() : pause()"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: confirmRepetitionStart"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: startTemplate(item.task.id, item.programStep?.id, intervalCompletionId(item))"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: startTemplate()"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "/intervals/run/:sessionId",
+      "kind": "navigation",
+      "label": "click: resumeActiveSession"
+    },
+    {
+      "from": "/intervals/run/:sessionId",
+      "to": "returnTo",
+      "kind": "navigation",
+      "label": "to: \"returnTo\""
+    },
+    {
+      "from": "/plan",
+      "to": "/tasks",
+      "kind": "redirect",
+      "label": "redirect (/tasks)"
+    },
+    {
+      "from": "/plan/intervals/new",
+      "to": "/intervals/new",
+      "kind": "redirect",
+      "label": "redirect (/intervals/new)"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "route_node",
+      "title": "BackOnTrack — Make life programmable.",
+      "path": "/",
+      "screenshotPath": "/screenshots/route_node.png",
+      "statePath": "/",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_auth",
+      "title": "auth",
+      "path": "/auth",
+      "screenshotPath": "/screenshots/route_auth.png",
+      "statePath": "/auth",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_forgot_password",
+      "title": "Forgot password",
+      "path": "/forgot-password",
+      "screenshotPath": "/screenshots/route_forgot_password.png",
+      "statePath": "/forgot-password",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_reset_password",
+      "title": "Reset password",
+      "path": "/reset-password",
+      "screenshotPath": "/screenshots/route_reset_password.png",
+      "statePath": "/reset-password",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_verify_email",
+      "title": "Confirm email",
+      "path": "/verify-email",
+      "screenshotPath": "/screenshots/route_verify_email.png",
+      "statePath": "/verify-email",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tasks",
+      "title": "Tasks",
+      "path": "/tasks",
+      "screenshotPath": "/screenshots/route_tasks.png",
+      "statePath": "/tasks",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_intervals",
+      "title": "Intervals",
+      "path": "/intervals",
+      "screenshotPath": "/screenshots/route_intervals.png",
+      "statePath": "/intervals",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards",
+      "title": "Flashcards",
+      "path": "/flashcards",
+      "screenshotPath": "/screenshots/route_flashcards.png",
+      "statePath": "/flashcards",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_cards",
+      "title": "Manage cards",
+      "path": "/flashcards/cards",
+      "screenshotPath": "/screenshots/route_flashcards_cards.png",
+      "statePath": "/flashcards/cards",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_tags",
+      "title": "Manage tags",
+      "path": "/flashcards/tags",
+      "screenshotPath": "/screenshots/route_flashcards_tags.png",
+      "statePath": "/flashcards/tags",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_cards_import",
+      "title": "Import cards",
+      "path": "/flashcards/cards/import",
+      "screenshotPath": "/screenshots/route_flashcards_cards_import.png",
+      "statePath": "/flashcards/cards/import",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_cards_new",
+      "title": "New card",
+      "path": "/flashcards/cards/new",
+      "screenshotPath": "/screenshots/route_flashcards_cards_new.png",
+      "statePath": "/flashcards/cards/new",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_cards_id_edit",
+      "title": "Edit card",
+      "path": "/flashcards/cards/:id/edit",
+      "screenshotPath": "/screenshots/route_flashcards_cards_id_edit.png",
+      "statePath": "/flashcards/cards/:id/edit",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_sets_new",
+      "title": "New Review set",
+      "path": "/flashcards/review-sets/new",
+      "screenshotPath": "/screenshots/route_flashcards_review_sets_new.png",
+      "statePath": "/flashcards/review-sets/new",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_sets_id_edit",
+      "title": "Edit Review set",
+      "path": "/flashcards/review-sets/:id/edit",
+      "screenshotPath": "/screenshots/route_flashcards_review_sets_id_edit.png",
+      "statePath": "/flashcards/review-sets/:id/edit",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_sets_id_share",
+      "title": "Share Review set",
+      "path": "/flashcards/review-sets/:id/share",
+      "screenshotPath": "/screenshots/route_flashcards_review_sets_id_share.png",
+      "statePath": "/flashcards/review-sets/:id/share",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_sets_id_cards",
+      "title": "Review set cards",
+      "path": "/flashcards/review-sets/:id/cards",
+      "screenshotPath": "/screenshots/route_flashcards_review_sets_id_cards.png",
+      "statePath": "/flashcards/review-sets/:id/cards",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_sets_reviewsetid_cards_new",
+      "title": "New shared card",
+      "path": "/flashcards/review-sets/:reviewSetId/cards/new",
+      "screenshotPath": "/screenshots/route_flashcards_review_sets_reviewsetid_cards_new.png",
+      "statePath": "/flashcards/review-sets/:reviewSetId/cards/new",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "title": "Edit shared card",
+      "path": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "screenshotPath": "/screenshots/route_flashcards_review_sets_reviewsetid_cards_id_edit.png",
+      "statePath": "/flashcards/review-sets/:reviewSetId/cards/:id/edit",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_set_reviewsetid",
+      "title": "Review",
+      "path": "/flashcards/review/set/:reviewSetId",
+      "screenshotPath": "/screenshots/route_flashcards_review_set_reviewsetid.png",
+      "statePath": "/flashcards/review/set/:reviewSetId",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_flashcards_review_sessionid",
+      "title": "Review",
+      "path": "/flashcards/review/:sessionId",
+      "screenshotPath": "/screenshots/route_flashcards_review_sessionid.png",
+      "statePath": "/flashcards/review/:sessionId",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tracking",
+      "title": "Tracking",
+      "path": "/tracking",
+      "screenshotPath": "/screenshots/route_tracking.png",
+      "statePath": "/tracking",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_journal",
+      "title": "Journal",
+      "path": "/journal",
+      "screenshotPath": "/screenshots/route_journal.png",
+      "statePath": "/journal",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_journal_new",
+      "title": "New reflection",
+      "path": "/journal/new",
+      "screenshotPath": "/screenshots/route_journal_new.png",
+      "statePath": "/journal/new",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_journal_id_edit",
+      "title": "Edit reflection",
+      "path": "/journal/:id/edit",
+      "screenshotPath": "/screenshots/route_journal_id_edit.png",
+      "statePath": "/journal/:id/edit",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tracking_new",
+      "title": "New tracker",
+      "path": "/tracking/new",
+      "screenshotPath": "/screenshots/route_tracking_new.png",
+      "statePath": "/tracking/new",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tracking_id_edit",
+      "title": "Edit tracker",
+      "path": "/tracking/:id/edit",
+      "screenshotPath": "/screenshots/route_tracking_id_edit.png",
+      "statePath": "/tracking/:id/edit",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tracking_insights_compare",
+      "title": "Tracking insights",
+      "path": "/tracking/insights/compare",
+      "screenshotPath": "/screenshots/route_tracking_insights_compare.png",
+      "statePath": "/tracking/insights/compare",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_account",
+      "title": "Account",
+      "path": "/account",
+      "screenshotPath": "/screenshots/route_account.png",
+      "statePath": "/account",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_settings",
+      "title": "Settings",
+      "path": "/settings",
+      "screenshotPath": "/screenshots/route_settings.png",
+      "statePath": "/settings",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_intervals_quick",
+      "title": "Quick interval",
+      "path": "/intervals/quick",
+      "screenshotPath": "/screenshots/route_intervals_quick.png",
+      "statePath": "/intervals/quick",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_intervals_new",
+      "title": "New interval",
+      "path": "/intervals/new",
+      "screenshotPath": "/screenshots/route_intervals_new.png",
+      "statePath": "/intervals/new",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_intervals_id_edit",
+      "title": "Edit interval",
+      "path": "/intervals/:id/edit",
+      "screenshotPath": "/screenshots/route_intervals_id_edit.png",
+      "statePath": "/intervals/:id/edit",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tasks_new",
+      "title": "New task",
+      "path": "/tasks/new",
+      "screenshotPath": "/screenshots/route_tasks_new.png",
+      "statePath": "/tasks/new",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tasks_id_timer",
+      "title": "Log time",
+      "path": "/tasks/:id/timer",
+      "screenshotPath": "/screenshots/route_tasks_id_timer.png",
+      "statePath": "/tasks/:id/timer",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_tasks_id",
+      "title": "Edit task",
+      "path": "/tasks/:id",
+      "screenshotPath": "/screenshots/route_tasks_id.png",
+      "statePath": "/tasks/:id",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_intervals_run_template_templateid",
+      "title": "Interval",
+      "path": "/intervals/run/template/:templateId",
+      "screenshotPath": "/screenshots/route_intervals_run_template_templateid.png",
+      "statePath": "/intervals/run/template/:templateId",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    },
+    {
+      "id": "route_intervals_run_sessionid",
+      "title": "Interval",
+      "path": "/intervals/run/:sessionId",
+      "screenshotPath": "/screenshots/route_intervals_run_sessionid.png",
+      "statePath": "/intervals/run/:sessionId",
+      "width": 1366,
+      "height": 768,
+      "capturedAt": null,
+      "captureVersion": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0_node_node",
+      "source": "route_node",
+      "target": "route_node",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/\""
+      ]
+    },
+    {
+      "id": "edge_1_node_auth",
+      "source": "route_node",
+      "target": "route_auth",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/auth\""
+      ]
+    },
+    {
+      "id": "edge_2_account_tasks",
+      "source": "route_account",
+      "target": "route_tasks",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_3_auth_auth",
+      "source": "route_auth",
+      "target": "route_auth",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: returnToSignIn"
+      ]
+    },
+    {
+      "id": "edge_4_auth_forgot_password",
+      "source": "route_auth",
+      "target": "route_forgot_password",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'forgot-password' }\""
+      ]
+    },
+    {
+      "id": "edge_5_flashcards_cards_id_edit_flashcards_cards",
+      "source": "route_flashcards_cards_id_edit",
+      "target": "route_flashcards_cards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_6_flashcards_cards_import_flashcards_cards",
+      "source": "route_flashcards_cards_import",
+      "target": "route_flashcards_cards",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "submit: importCards"
+      ]
+    },
+    {
+      "id": "edge_7_flashcards_cards_new_flashcards_cards",
+      "source": "route_flashcards_cards_new",
+      "target": "route_flashcards_cards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_8_flashcards_cards_flashcards",
+      "source": "route_flashcards_cards",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_9_flashcards_cards_flashcards_cards_id_edit",
+      "source": "route_flashcards_cards",
+      "target": "route_flashcards_cards_id_edit",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: openCard(card)",
+        "open-card: openCard"
+      ]
+    },
+    {
+      "id": "edge_10_flashcards_cards_flashcards_cards_new",
+      "source": "route_flashcards_cards",
+      "target": "route_flashcards_cards_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "add-card: openNewCard"
+      ]
+    },
+    {
+      "id": "edge_11_flashcards_cards_flashcards_tags",
+      "source": "route_flashcards_cards",
+      "target": "route_flashcards_tags",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'flashcard-tags' }\""
+      ]
+    },
+    {
+      "id": "edge_12_flashcards_review_sets_id_cards_flashcards",
+      "source": "route_flashcards_review_sets_id_cards",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_13_flashcards_review_sets_id_cards_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "source": "route_flashcards_review_sets_id_cards",
+      "target": "route_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "open-card: openCard"
+      ]
+    },
+    {
+      "id": "edge_14_flashcards_review_sets_id_cards_flashcards_review_sets_reviewsetid_cards_new",
+      "source": "route_flashcards_review_sets_id_cards",
+      "target": "route_flashcards_review_sets_reviewsetid_cards_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "add-card: openNewCard"
+      ]
+    },
+    {
+      "id": "edge_15_flashcards_review_sets_id_edit_flashcards",
+      "source": "route_flashcards_review_sets_id_edit",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: remove",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_16_flashcards_review_sets_id_edit_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "source": "route_flashcards_review_sets_id_edit",
+      "target": "route_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: openCard(card)",
+        "open-card: openCard"
+      ]
+    },
+    {
+      "id": "edge_17_flashcards_review_sets_id_edit_flashcards_review_sets_reviewsetid_cards_new",
+      "source": "route_flashcards_review_sets_id_edit",
+      "target": "route_flashcards_review_sets_reviewsetid_cards_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "add-card: openNewCard"
+      ]
+    },
+    {
+      "id": "edge_18_flashcards_review_sets_id_share_flashcards",
+      "source": "route_flashcards_review_sets_id_share",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_19_flashcards_review_sets_reviewsetid_cards_id_edit_flashcards",
+      "source": "route_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_20_flashcards_review_sets_reviewsetid_cards_new_flashcards",
+      "source": "route_flashcards_review_sets_reviewsetid_cards_new",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_21_flashcards_review_sets_new_flashcards",
+      "source": "route_flashcards_review_sets_new",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: remove",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_22_flashcards_review_sets_new_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "source": "route_flashcards_review_sets_new",
+      "target": "route_flashcards_review_sets_reviewsetid_cards_id_edit",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: openCard(card)",
+        "open-card: openCard"
+      ]
+    },
+    {
+      "id": "edge_23_flashcards_review_sets_new_flashcards_review_sets_reviewsetid_cards_new",
+      "source": "route_flashcards_review_sets_new",
+      "target": "route_flashcards_review_sets_reviewsetid_cards_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "add-card: openNewCard"
+      ]
+    },
+    {
+      "id": "edge_24_flashcards_review_sessionid_flashcards",
+      "source": "route_flashcards_review_sessionid",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_25_flashcards_review_sessionid_flashcards_review_sessionid",
+      "source": "route_flashcards_review_sessionid",
+      "target": "route_flashcards_review_sessionid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: isReviewSetPreview ? startPreviewReview() : session.status === 'paused' ? resumeReview() : pauseReview(false)",
+        "start: startPreviewReview"
+      ]
+    },
+    {
+      "id": "edge_26_flashcards_review_set_reviewsetid_flashcards",
+      "source": "route_flashcards_review_set_reviewsetid",
+      "target": "route_flashcards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_27_flashcards_review_set_reviewsetid_flashcards_review_sessionid",
+      "source": "route_flashcards_review_set_reviewsetid",
+      "target": "route_flashcards_review_sessionid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: isReviewSetPreview ? startPreviewReview() : session.status === 'paused' ? resumeReview() : pauseReview(false)",
+        "start: startPreviewReview"
+      ]
+    },
+    {
+      "id": "edge_28_flashcards_tags_flashcards_cards",
+      "source": "route_flashcards_tags",
+      "target": "route_flashcards_cards",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_29_flashcards_tags_flashcards_cards_new",
+      "source": "route_flashcards_tags",
+      "target": "route_flashcards_cards_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'flashcard-new' }\""
+      ]
+    },
+    {
+      "id": "edge_30_flashcards_flashcards_cards",
+      "source": "route_flashcards",
+      "target": "route_flashcards_cards",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'flashcard-cards' }\""
+      ]
+    },
+    {
+      "id": "edge_31_flashcards_flashcards_cards_new",
+      "source": "route_flashcards",
+      "target": "route_flashcards_cards_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'flashcard-new' }\""
+      ]
+    },
+    {
+      "id": "edge_32_flashcards_flashcards_review_sets_id_cards",
+      "source": "route_flashcards",
+      "target": "route_flashcards_review_sets_id_cards",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runReviewSetAction(item.action)"
+      ]
+    },
+    {
+      "id": "edge_33_flashcards_flashcards_review_sets_id_edit",
+      "source": "route_flashcards",
+      "target": "route_flashcards_review_sets_id_edit",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runReviewSetAction(item.action)"
+      ]
+    },
+    {
+      "id": "edge_34_flashcards_flashcards_review_sets_id_share",
+      "source": "route_flashcards",
+      "target": "route_flashcards_review_sets_id_share",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runReviewSetAction(item.action)"
+      ]
+    },
+    {
+      "id": "edge_35_flashcards_flashcards_review_sets_new",
+      "source": "route_flashcards",
+      "target": "route_flashcards_review_sets_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'flashcard-review-set-new' }\""
+      ]
+    },
+    {
+      "id": "edge_36_flashcards_flashcards_review_sessionid",
+      "source": "route_flashcards",
+      "target": "route_flashcards_review_sessionid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: openReviewSet(reviewSet)",
+        "click: runReviewSetAction(item.action)",
+        "keydown: openReviewSet(reviewSet)"
+      ]
+    },
+    {
+      "id": "edge_37_flashcards_flashcards_review_set_reviewsetid",
+      "source": "route_flashcards",
+      "target": "route_flashcards_review_set_reviewsetid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: openReviewSet(reviewSet)",
+        "click: runReviewSetAction(item.action)",
+        "keydown: openReviewSet(reviewSet)"
+      ]
+    },
+    {
+      "id": "edge_38_forgot_password_auth",
+      "source": "route_forgot_password",
+      "target": "route_auth",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: returnToSignIn"
+      ]
+    },
+    {
+      "id": "edge_39_forgot_password_forgot_password",
+      "source": "route_forgot_password",
+      "target": "route_forgot_password",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'forgot-password' }\""
+      ]
+    },
+    {
+      "id": "edge_40_intervals_id_edit_flashcards_review_sets_new",
+      "source": "route_intervals_id_edit",
+      "target": "route_flashcards_review_sets_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'flashcard-review-set-new' }\""
+      ]
+    },
+    {
+      "id": "edge_41_intervals_id_edit_intervals",
+      "source": "route_intervals_id_edit",
+      "target": "route_intervals",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: removeTemplate",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_42_intervals_new_flashcards_review_sets_new",
+      "source": "route_intervals_new",
+      "target": "route_flashcards_review_sets_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'flashcard-review-set-new' }\""
+      ]
+    },
+    {
+      "id": "edge_43_intervals_new_intervals",
+      "source": "route_intervals_new",
+      "target": "route_intervals",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: removeTemplate",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_44_intervals_quick_intervals",
+      "source": "route_intervals_quick",
+      "target": "route_intervals",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_45_intervals_run_sessionid_intervals",
+      "source": "route_intervals_run_sessionid",
+      "target": "route_intervals",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_46_intervals_run_sessionid_intervals_run_sessionid",
+      "source": "route_intervals_run_sessionid",
+      "target": "route_intervals_run_sessionid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: confirmRepetitionStart",
+        "click: isTemplatePreview ? requestStartTemplate() : confirmCurrent()",
+        "click: isTemplatePreview ? requestStartTemplate() : session.status === 'paused' ? resume() : pause()",
+        "click: resumeActiveSession",
+        "click: runAgain()",
+        "click: startTemplate()",
+        "click: startTemplate(item.task.id, item.programStep?.id, intervalCompletionId(item))",
+        "start: requestStartTemplate"
+      ]
+    },
+    {
+      "id": "edge_47_intervals_run_template_templateid_intervals",
+      "source": "route_intervals_run_template_templateid",
+      "target": "route_intervals",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_48_intervals_run_template_templateid_intervals_run_sessionid",
+      "source": "route_intervals_run_template_templateid",
+      "target": "route_intervals_run_sessionid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: confirmRepetitionStart",
+        "click: isTemplatePreview ? requestStartTemplate() : confirmCurrent()",
+        "click: isTemplatePreview ? requestStartTemplate() : session.status === 'paused' ? resume() : pause()",
+        "click: resumeActiveSession",
+        "click: runAgain()",
+        "click: startTemplate()",
+        "click: startTemplate(item.task.id, item.programStep?.id, intervalCompletionId(item))",
+        "start: requestStartTemplate"
+      ]
+    },
+    {
+      "id": "edge_49_intervals_intervals_new",
+      "source": "route_intervals",
+      "target": "route_intervals_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/intervals/new\""
+      ]
+    },
+    {
+      "id": "edge_50_intervals_intervals_quick",
+      "source": "route_intervals",
+      "target": "route_intervals_quick",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/intervals/quick\""
+      ]
+    },
+    {
+      "id": "edge_51_journal_id_edit_journal",
+      "source": "route_journal_id_edit",
+      "target": "route_journal",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_52_journal_new_journal",
+      "source": "route_journal_new",
+      "target": "route_journal",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_53_journal_journal",
+      "source": "route_journal",
+      "target": "route_journal",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click:close: clearSourceFilter('task')",
+        "click:close: clearSourceFilter('tracker')"
+      ]
+    },
+    {
+      "id": "edge_54_journal_journal_id_edit",
+      "source": "route_journal",
+      "target": "route_journal_id_edit",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: router.push({ name: 'journal-edit', params: { id: entry.id } })",
+        "keydown: router.push({ name: 'journal-edit', params: { id: entry.id } })"
+      ]
+    },
+    {
+      "id": "edge_55_journal_journal_new",
+      "source": "route_journal",
+      "target": "route_journal_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'journal-new', query: newEntryQuery() }\""
+      ]
+    },
+    {
+      "id": "edge_56_reset_password_auth",
+      "source": "route_reset_password",
+      "target": "route_auth",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: returnToSignIn"
+      ]
+    },
+    {
+      "id": "edge_57_reset_password_forgot_password",
+      "source": "route_reset_password",
+      "target": "route_forgot_password",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'forgot-password' }\""
+      ]
+    },
+    {
+      "id": "edge_58_settings_tasks",
+      "source": "route_settings",
+      "target": "route_tasks",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_59_tasks_id_timer_tasks",
+      "source": "route_tasks_id_timer",
+      "target": "route_tasks",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "click: leave",
+        "confirm: logTime"
+      ]
+    },
+    {
+      "id": "edge_60_tasks_id_flashcards_review_sets_new",
+      "source": "route_tasks_id",
+      "target": "route_flashcards_review_sets_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/flashcards/review-sets/new\""
+      ]
+    },
+    {
+      "id": "edge_61_tasks_id_intervals_new",
+      "source": "route_tasks_id",
+      "target": "route_intervals_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/intervals/new\""
+      ]
+    },
+    {
+      "id": "edge_62_tasks_id_tasks",
+      "source": "route_tasks_id",
+      "target": "route_tasks",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: removeTask",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_63_tasks_id_tracking_new",
+      "source": "route_tasks_id",
+      "target": "route_tracking_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/tracking/new\""
+      ]
+    },
+    {
+      "id": "edge_64_tasks_new_flashcards_review_sets_new",
+      "source": "route_tasks_new",
+      "target": "route_flashcards_review_sets_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/flashcards/review-sets/new\""
+      ]
+    },
+    {
+      "id": "edge_65_tasks_new_intervals_new",
+      "source": "route_tasks_new",
+      "target": "route_intervals_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/intervals/new\""
+      ]
+    },
+    {
+      "id": "edge_66_tasks_new_tasks",
+      "source": "route_tasks_new",
+      "target": "route_tasks",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: removeTask",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_67_tasks_new_tracking_new",
+      "source": "route_tasks_new",
+      "target": "route_tracking_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/tracking/new\""
+      ]
+    },
+    {
+      "id": "edge_68_tasks_flashcards_review_sessionid",
+      "source": "route_tasks",
+      "target": "route_flashcards_review_sessionid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: resumeActiveReview",
+        "click: runTaskMainAction(action)",
+        "run-program-step-requirement: runProgramStepRequirement"
+      ]
+    },
+    {
+      "id": "edge_69_tasks_flashcards_review_set_reviewsetid",
+      "source": "route_tasks",
+      "target": "route_flashcards_review_set_reviewsetid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runTaskMainAction(action)",
+        "run-program-step-requirement: runProgramStepRequirement"
+      ]
+    },
+    {
+      "id": "edge_70_tasks_intervals_run_sessionid",
+      "source": "route_tasks",
+      "target": "route_intervals_run_sessionid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: resumeActiveInterval",
+        "click: runTaskMainAction(action)",
+        "run-program-step-requirement: runProgramStepRequirement"
+      ]
+    },
+    {
+      "id": "edge_71_tasks_intervals_run_template_templateid",
+      "source": "route_tasks",
+      "target": "route_intervals_run_template_templateid",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runTaskMainAction(action)",
+        "run-program-step-requirement: runProgramStepRequirement"
+      ]
+    },
+    {
+      "id": "edge_72_tasks_journal_new",
+      "source": "route_tasks",
+      "target": "route_journal_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runTaskMainAction(action)"
+      ]
+    },
+    {
+      "id": "edge_73_tasks_tasks_id",
+      "source": "route_tasks",
+      "target": "route_tasks_id",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runTaskCardAction(action.id)"
+      ]
+    },
+    {
+      "id": "edge_74_tasks_tasks_id_timer",
+      "source": "route_tasks",
+      "target": "route_tasks_id_timer",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: runTaskMainAction(action)",
+        "log-tracking-time: openTrackingTimeLogger"
+      ]
+    },
+    {
+      "id": "edge_75_tasks_tasks_new",
+      "source": "route_tasks",
+      "target": "route_tasks_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/tasks/new\""
+      ]
+    },
+    {
+      "id": "edge_76_tracking_id_edit_tracking",
+      "source": "route_tracking_id_edit",
+      "target": "route_tracking",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: remove",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_77_tracking_insights_compare_tracking",
+      "source": "route_tracking_insights_compare",
+      "target": "route_tracking",
+      "kinds": [
+        "backTo"
+      ],
+      "labels": [
+        "back"
+      ]
+    },
+    {
+      "id": "edge_78_tracking_insights_compare_tracking_new",
+      "source": "route_tracking_insights_compare",
+      "target": "route_tracking_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/tracking/new\""
+      ]
+    },
+    {
+      "id": "edge_79_tracking_new_tracking",
+      "source": "route_tracking_new",
+      "target": "route_tracking",
+      "kinds": [
+        "backTo",
+        "navigation"
+      ],
+      "labels": [
+        "back",
+        "confirm: remove",
+        "submit: save"
+      ]
+    },
+    {
+      "id": "edge_80_tracking_journal",
+      "source": "route_tracking",
+      "target": "route_journal",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: viewTrackerReflections"
+      ]
+    },
+    {
+      "id": "edge_81_tracking_journal_new",
+      "source": "route_tracking",
+      "target": "route_journal_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: writeTrackerReflection"
+      ]
+    },
+    {
+      "id": "edge_82_tracking_tasks",
+      "source": "route_tracking",
+      "target": "route_tasks",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "saved: handleLogSaved"
+      ]
+    },
+    {
+      "id": "edge_83_tracking_tracking_insights_compare",
+      "source": "route_tracking",
+      "target": "route_tracking_insights_compare",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/tracking/insights/compare\""
+      ]
+    },
+    {
+      "id": "edge_84_tracking_tracking_new",
+      "source": "route_tracking",
+      "target": "route_tracking_new",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"/tracking/new\"",
+        "to: \"{ path: '/tracking/new', query: { role: 'factor' } }\"",
+        "to: \"{ path: '/tracking/new', query: { role: 'outcome' } }\""
+      ]
+    },
+    {
+      "id": "edge_85_verify_email_auth",
+      "source": "route_verify_email",
+      "target": "route_auth",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "click: returnToSignIn"
+      ]
+    },
+    {
+      "id": "edge_86_verify_email_forgot_password",
+      "source": "route_verify_email",
+      "target": "route_forgot_password",
+      "kinds": [
+        "navigation"
+      ],
+      "labels": [
+        "to: \"{ name: 'forgot-password' }\""
+      ]
+    }
+  ]
+}
